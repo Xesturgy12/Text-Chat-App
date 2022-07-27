@@ -1,0 +1,70 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 80%;
+    width: 45%;
+  }
+
+  .menu{
+    display: flex;
+    width: 15%;
+    height:50%;
+  }
+
+  .dark-div{
+    background-color: rgb(66, 63, 63);
+  }
+
+  .light-div{
+    background-color: azure;
+  }
+
+  .dark-txt{
+    color: beige;
+  }
+
+  .light-text{
+    color:rgb(47, 47, 235)
+  }
+
+  .gender-img{
+    width: 120%;
+    height: 120%;
+  }
+
+  .gender-btn{
+    width: 13%;
+    height: 15%;
+    margin: 0 10%;
+    text-align: center;
+  }
+
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer {
+      height: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .container {
+      width: 60%;
+    }
+  }

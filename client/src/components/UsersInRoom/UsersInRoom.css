@@ -1,0 +1,46 @@
+.users-list{
+    display: block;
+    border: 2px black solid;
+}
+
+.list-txt{
+    display: block;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+.list-light
+{
+    background-color: rgb(62, 83, 105);
+    color: aliceblue;
+}
+
+.list-dark
+{
+    background-color: rgb(65, 99, 137);
+    color: rgb(210, 213, 215);
+}
+
+
+.user-block{
+    display: inline-block;
+    border: 1px black solid;
+    width: 90%;
+    text-align: center;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.usr-light{
+    color: rgb(217, 217, 217);
+    background-color: rgb(88, 138, 198);
+}
+
+.usr-dark{
+    color: rgb(29, 55, 245);
+    background-color: rgb(91, 158, 206);
+}
